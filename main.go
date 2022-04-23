@@ -17,6 +17,7 @@ package main
 func main() {
 	//database.ConnectToDatabase()
 	ConnectToDatabase()
+	connectToRedis()
 	handleRequest()
 }
 
